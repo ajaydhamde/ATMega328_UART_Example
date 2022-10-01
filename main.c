@@ -22,7 +22,7 @@
 */
 
 #include "mcc_generated_files/mcc.h"
-
+#include "avr/delay.h"
 /*
     Main application
 */
@@ -35,6 +35,7 @@ int main(void)
     while (1){
         //Write Hello World sample.
         printf("Hello World..!");
+        _delay_ms(100);
     }
 }
 /**
