@@ -34,6 +34,7 @@ int main(void)
     /* Replace with your application code */
     while (1){
         //Write Hello World sample.
+        printf("Hello World..!");
     }
 }
 /**
